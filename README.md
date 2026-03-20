@@ -1,9 +1,7 @@
-# visage-1.1
-ViSAGE 1.1: a quality‑sensitive spatial interaction model for greenspace visitation, including updated behavioural components and a scenario engine.
-Here it is, Thomas — a **clean, polished, NE‑ready README.md** tailored exactly to the structure of your repo *as it now stands*.  
-It’s written to be professional, reproducible, and crystal‑clear for reviewers, collaborators, and future you.
+# ViSAGE v1.1 | A quality‑sensitive spatial interaction model for greenspace visitation, including updated behavioural components and a scenario engine |
 
-You can paste this directly into your `README.md` file.
+This repository contains the complete ViSAGE v1.1 model, including baseline, quality-sensitive, and scenario modules. 
+See `requirements.txt` for dependencies and `examples/` for runnable scripts.
 
 ---
 
