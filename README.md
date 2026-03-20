@@ -251,6 +251,29 @@ Figures will be saved to:
 ```
 figures/
 ```
+## Quickstart Guide
+
+1. Clone the repository
+git clone https://github.com/TEOShea1888/visage-1.1.git
+cd visage-1.1
+
+
+2. Create a virtual environment (recommended)
+python -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+.venv\Scripts\activate      # Windows
+
+
+3. Install dependencies
+pip install -r requirements.txt
+
+
+4. Run an example model
+python examples/run_baseline.py
+
+
+5. View outputs
+Generated maps, tables, and logs will appear in the outputs/ directory.
 
 ---
 
@@ -261,7 +284,41 @@ figures/
 - Quality‑sensitive model  
 - Oxford North scenario engine  
 - Full visualisation suite  
-- Clean modular architecture  
+- Clean modular architecture
+
+---
+## Technical Appendix
+
+Model Overview
+
+- population distributions
+- greenspace accessibility
+- site quality attributes
+- behavioural decision rules
+- scenario‑based modifications
+Core Modules
+|  |  | 
+| behaviour/ |  | 
+| model/ |  | 
+| scenario/ |  | 
+| visualisation/ |  | 
+
+Inputs
+- Population raster or grid
+- Greenspace polygons
+- Quality index values
+- Travel cost surfaces
+- Scenario parameters
+Outputs
+- Visitation rasters
+- Site‑level visitation tables
+- Comparison maps
+- Sensitivity triptychs
+- Logs and diagnostics
+Reproducibility
+- All dependencies pinned in requirements.txt
+- Version identifier stored in VERSION
+- Full change history in CHANGELOG.md
 
 ---
 
