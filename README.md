@@ -101,8 +101,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-*(If you want, I can generate this file for you.)*
-
 ---
 
 ## 🌼 **Data Inputs**
