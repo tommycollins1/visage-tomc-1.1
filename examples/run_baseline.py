@@ -4,9 +4,9 @@ from src.data.load_origins import load_origins
 from src.data.load_destinations import load_destinations
 from src.model.spatial_interaction import model_2
 from src.visualisation.baseline_maps import plot_greenspace_visits_osm
+dhn
 
-
-DATA_DIR = Path("data") / "raw"
+DATA_DIR = Path("src/data") / "raw"
 
 ORIGINS_PATH = DATA_DIR / "synthetic_pop(in).csv"
 DESTINATIONS_PATH = DATA_DIR / "site_catalogue(in).csv"
