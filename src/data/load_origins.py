@@ -1,6 +1,5 @@
 import pandas as pd
 import geopandas as gpd
-from shapely.geometry import Point
 
 
 def load_origins(path: str) -> gpd.GeoDataFrame:
